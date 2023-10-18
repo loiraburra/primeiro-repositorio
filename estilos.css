@@ -6,6 +6,10 @@ p {
     text-align: center;
 }
 
+p { 
+    text-align: center;
+}
+
 em p {
     color: red;
 }
