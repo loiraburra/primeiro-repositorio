@@ -1,29 +1,29 @@
 header {
-     background: #cccccc;
-     padding: 20px 0;
-}  
+    background: #CCCCCC;
+    padding: 20px 0;
+}
 
- .caixa {
+.caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
- }
+}
 
- nav {
+nav {
     position: absolute;
     top: 110px;
     right: 0;
  }
 
 nav li {
-     display: inline;
-     margin: 0 0 0 15px;
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
 nav a {
     text-transform: uppercase;
     color: #000000;
-    font-weight: bold;
+    font-weight:  bold;
     font-size: 22px;
     text-decoration: none;
 }
@@ -49,12 +49,37 @@ nav a {
     font-weight: bold;
 }
 
-.produtos-descricao {
-     font-size: 18px;
+.produtos li:hover {
+    border-color: #c78c19;
+}
+
+.produtos li:active {
+border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34xp;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
 }
 
 .produtos-preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40xp 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size:  13px;
+    margin: 20xp 0 0;
 }
